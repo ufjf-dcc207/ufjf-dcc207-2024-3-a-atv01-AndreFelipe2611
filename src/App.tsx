@@ -1,8 +1,13 @@
-import './App.css'
+import "./App.css";
+import Disciplina from "./Disciplina";
 
 function App() {
-  return <h1>Hello world!</h1>;    
+  return(
+    <>
+      return <h1>Hello world!</h1>
+      <Disciplina />
+    </>
+  );
 }
 
-
-export default App
+export default App;
